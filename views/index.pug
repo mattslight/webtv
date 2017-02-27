@@ -40,7 +40,8 @@ block content
         span.hamb-bottom
       .container-fluid
         .row
-          .col-lg-12
-            #wowza_player
-            script#player_embed(src='//player.cloud.wowza.com/hosted/f5fm71vr/wowza.js', type='text/javascript')
-
+          #jwplayer
+          script(type='text/javaScript').
+            var playerInstance = jwplayer("jwplayer");
+            playerInstance.setup({
+          script(src='//content.jwplatform.com/players/g7fKzJsZ-Hfok2Nah.js')
