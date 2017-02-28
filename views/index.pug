@@ -11,7 +11,7 @@ block content
         each category in categories
           if catChan[category['categoryId']].length > 1
             li.dropdown
-              a.dropdown-toggle(href='#' + category['categoryId'], data-toggle='dropdown') #{category['categoryName']}
+              a.dropdown-toggle(data-toggle='dropdown') #{category['categoryName']}
                 span.caret
               ul.dropdown-menu(role='menu')
                 li.dropdown-header
