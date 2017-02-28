@@ -2,7 +2,34 @@
 
   {
     "channelId": 1,
-    "channelName": ""
-  }
-
+    "channelName": "Channel 1"
+  },
+  {
+    "channelId": 2,
+    "channelName": "Sport"
+  },
+  {
+    "channelId": 3,
+    "channelName": "Dance"
+  },
+  {
+    "channelId": 4,
+    "channelName": "Nature"
+  },
+  {
+    "channelId": 5,
+    "channelName": "Music"
+  },
+  {
+    "channelId": 6,
+    "channelName": "Edu"
+  },
+  {
+    "channelId": 7,
+    "channelName": "Talk"
+  },
+  {
+    "channelId": 8,
+    "channelName": "Random"
+  },
 ]
