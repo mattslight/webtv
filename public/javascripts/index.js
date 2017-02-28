@@ -31,4 +31,23 @@ $(document).ready(function () {
     });
 });
 
+if ("onhashchange" in window) { // event supported?
+    window.onhashchange = function () {
+        hashChanged(window.location.hash);
+    }
+}
+else { // event not supported:
+    var storedHash = window.location.hash;
+    window.setInterval(function () {
+        if (window.location.hash != storedHash) {
+            storedHash = window.location.hash;
+            hashChanged(storedHash);
+        }
+    }, 100);
+}
+
+function hashChanged(hash) {
+    alert(hash);
+}
+
 
