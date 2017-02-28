@@ -7,32 +7,9 @@ block content
       ul.nav.sidebar-nav
         li.sidebar-brand
           a(href='#') WebTV
-        li
-          a(href='#channel-1') Channel 1
-        li
-          a(href='#sports') Sports
-        li
-          a(href='#dance') Dance
-        li
-          a(href='#nature') Nature
-        li.dropdown
-          a.dropdown-toggle(href='#', data-toggle='dropdown')
-            | Music
-            span.caret
-          ul.dropdown-menu(role='menu')
-            li.dropdown-header
-            li
-              a(href='#music-bands') Bands
-            li
-              a(href='#music-djs') DJs
-            li
-              a(href='#karaoke') Karaoke
-        li
-          a(href='#edu') Edu
-        li
-          a(href='#ralk') Talk
-        li
-          a(href='#random') Random
+        each category in categories
+          li
+            a(href='#' + category['categoryId']) #{category['categoryName']}
     #page-content-wrapper
       button.hamburger.is-closed(type='button', data-toggle='offcanvas')
         span.hamb-top

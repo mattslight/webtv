@@ -1,0 +1,34 @@
+[
+  {
+    "categoryId": 1,
+    "categoryName": "Channel 1"
+  },
+  {
+    "categoryId": 2,
+    "categoryName": "Sport"
+  },
+  {
+    "categoryId": 3,
+    "categoryName": "Dance"
+  },
+  {
+    "categoryId": 4,
+    "categoryName": "Nature"
+  },
+  {
+    "categoryId": 5,
+    "categoryName": "Music"
+  },
+  {
+    "categoryId": 6,
+    "categoryName": "Edu"
+  },
+  {
+    "categoryId": 7,
+    "categoryName": "Talk"
+  },
+  {
+    "categoryId": 8,
+    "categoryName": "Random"
+  }
+]

@@ -1,35 +1,67 @@
 [
-
   {
     "channelId": 1,
+    "categoryId": 1,
     "channelName": "Channel 1"
   },
   {
-    "channelId": 2,
-    "channelName": "Sport"
+    "channelId": 20,
+    "categoryId": 2,
+    "channelName": "Cricket"
   },
   {
-    "channelId": 3,
+    "channelId": 21,
+    "categoryId": 2,
+    "channelName": "Baseball"
+  },
+  {
+    "channelId": 22,
+    "categoryId": 2,
+    "channelName": "Volleyball"
+  },
+  {
+    "channelId": 23,
+    "categoryId": 2,
+    "channelName": "Golf"
+  },
+  {
+    "channelId": 30,
+    "categoryId": 3,
     "channelName": "Dance"
   },
   {
-    "channelId": 4,
+    "channelId": 31,
+    "categoryId": 3,
+    "channelName": "Street"
+  },
+  {
+    "channelId": 40,
+    "categoryId": 4,
     "channelName": "Nature"
   },
   {
-    "channelId": 5,
-    "channelName": "Music"
+    "channelId": 50,
+    "categoryId": 5,
+    "channelName": "Bands"
   },
   {
-    "channelId": 6,
+    "channelId": 51,
+    "categoryId": 5,
+    "channelName": "DJ"
+  },
+  {
+    "channelId": 60,
+    "categoryId": 6,
     "channelName": "Edu"
   },
   {
-    "channelId": 7,
+    "channelId": 70,
+    "categoryId": 7,
     "channelName": "Talk"
   },
   {
     "channelId": 8,
+    "categoryId": 8,
     "channelName": "Random"
-  },
+  }
 ]

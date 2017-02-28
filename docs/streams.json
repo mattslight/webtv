@@ -17,7 +17,7 @@
     "id": 30,
     "channelId": 3,
     "name": "Iranian Belly Dance by Naya M",
-    "source": "https://www.youtube.com/watch?v=f564Brix00U&index=3&list=RDy3F0Xt2kUKU",
+    "source": "https://www.youtube.com/watch?v=f564Brix00U",
     "link": ""
   },
   {
@@ -30,9 +30,9 @@
   {
     "id": 50,
     "channelId": 5,
-    "name": "",
+    "name": "Juicy M on the Decks - Requests Please!!!",
     "source": "https://www.youtube.com/watch?v=4xS3TIa2gSQ",
-    "link": "Juicy M on the Decks - Requests Please!!!"
+    "link": ""
   },
   {
     "id": 60,
@@ -55,6 +55,4 @@
     "source": "https://www.youtube.com/watch?v=JC6ODfD4E48",
     "link": ""
   }
-
-
 ]
