@@ -20,7 +20,7 @@ block content
                     a(href='#' + chan['channelId']) #{chan['channelName']}
           else
             li
-              a(href='#' + category['categoryId']) #{category['categoryName']}
+              a(href='#' + category['categoryId'] + '0') #{category['categoryName']}
     #page-content-wrapper
       button.hamburger.is-closed(type='button', data-toggle='offcanvas')
         span.hamb-top
@@ -28,7 +28,5 @@ block content
         span.hamb-bottom
       .container-fluid
         .row
-          #jwplayer
-          script(type='text/javaScript').
-            var playerInstance = jwplayer("jwplayer");
-          script(src='//content.jwplatform.com/players/N01Rp9Ck-Hfok2Nah.js')
+          #wowza_player
+          script#player_embed(src='//player.cloud.wowza.com/hosted/f5fm71vr/wowza.js', type='text/javascript')

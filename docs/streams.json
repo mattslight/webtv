@@ -4,101 +4,90 @@
     "channelId": 10,
     "name": "Snowboarding with Dan Johnson",
     "source": "https://www.youtube.com/watch?v=_r8osLwFXCU",
-    "link": "",
-    "jwMediaId" : ""
+    "link": "rtmp://54.93.117.126:1935/live/88f42427-e315-4be4-b653-7f06f46d0f2c",
   },
   {
     "id": 2,
     "channelId": 20,
     "name": "Cricket Spin Bowling Coaching Session with Q&A",
     "source": "https://www.youtube.com/watch?v=H5mOSUIAOt0",
-    "link": "",
-    "jwMediaId" : ""
+    "link": "rtmp://54.93.117.126:1935/live/d0482e7b-63f9-46db-a44e-8cf8fdd77ea2",
   },
   {
     "id": 3,
     "channelId": 21,
     "name": "Baseball",
     "source": "https://www.youtube.com/watch?v=hcNGT6ZcH1s",
-    "link": "",
-    "jwMediaId" : ""
+    "link": "rtmp://54.93.117.126:1935/live/097da817-1e1f-4a89-b82e-dfb4006c4d50",
   },
   {
     "id": 4,
     "channelId": 22,
     "name": "Penn State Collage Volleyball Playoff",
     "source": "https://www.youtube.com/watch?v=JnHDYW9uMLY",
-    "link": "",
-    "jwMediaId" : ""
+    "link": "rtmp://54.93.117.126:1935/live/123eed2b-08fb-4194-a4e4-46e9b5dcab41",
   },
   {
     "id": 5,
     "channelId": 23,
     "name": "Golf Tips from Tiger Woods Golf Coach ",
     "source": "https://www.youtube.com/watch?v=TvISBAxbX1E",
-    "link": "",
-    "jwMediaId" : ""
+    "link": "rtmp://54.93.117.126:1935/live/4c1609d6-410f-4f7e-be6b-5f65081ce2bc",
   },
   {
     "id": 6,
     "channelId": 30,
     "name": "Iranian Belly Dance by Naya M",
     "source": "https://www.youtube.com/watch?v=f564Brix00U",
-    "link": "",
-    "jwMediaId" : ""
+    "link": "rtmp://54.93.117.126:1935/live/885cbe6d-030c-4aa2-9aae-6f3cced3a90b",
   },
   {
     "id": 7,
     "channelId": 31,
     "name": "Street Dance Competition NYC - Semi Final",
     "source": "https://www.youtube.com/watch?v=qpdQLbp-7nQ",
-    "link": "",
-    "jwMediaId" : ""
+    "link": "rtmp://54.93.117.126:1935/live/e016ffa7-c061-4008-972b-496e1fec8404",
   },
   {
     "id": 8,
     "channelId": 40,
     "name": "Trip to Canada from Hawaii by Drone",
     "source": "https://www.youtube.com/watch?v=EzCNxaBuTRk",
-    "link": "",
-    "jwMediaId" : "N01Rp9Ck"
+    "link": "rtmp://54.93.117.126:1935/live/9091231b-9886-4cf0-8802-b57e580a41bb",
   },
   {
     "id": 9,
     "channelId": 50,
     "name": "Band Practice with the DUKES",
     "source": "https://www.youtube.com/watch?v=PqkqA22jJkk",
-    "link": "",
-    "jwMediaId" : ""
+    "link": "rtmp://54.93.117.126:1935/live/7ee54e59-6516-484f-964a-d805e12d58f6",
   },
   {
     "id": 10,
     "channelId": 51,
     "name": "Juicy M on the Decks - Requests Please!!!",
     "source": "https://www.youtube.com/watch?v=4xS3TIa2gSQ",
-    "link": "",
-    "jwMediaId" : ""
+    "link": "rtmp://54.93.117.126:1935/live/da9e7030-520e-4a0a-a23b-5e80512a3d84",
   },
   {
     "id": 11,
     "channelId": 60,
     "name": "Jeff Weiner on Establishing a Plan and Culture for Scaling",
     "source": "https://www.youtube.com/watch?v=cYN3ghAam14",
-    "link": "",
-    "jwMediaId" : ""
+    "link": "rtmp://54.93.117.126:1935/live/9d64e774-20d6-4b88-be83-e6d04f3331ec",
   },
   {
     "id": 12,
     "channelId": 70,
     "name": "Live Q&A With Instagram Founder Kevin Systrom",
     "source": "https://www.youtube.com/watch?v=Fgn2fhZBAVA",
-    "link": ""
+    "link": "rtmp://54.93.117.126:1935/live/574c912d-2de5-40a9-91b0-bfe228742b8f"
   },
   {
     "id": 13,
     "channelId": 80,
     "name": "Burning Man Live",
     "source": "https://www.youtube.com/watch?v=JC6ODfD4E48",
-    "link": ""
+    "link": "rtmp://54.93.117.126:1935/live/9646427c-629d-47fd-9f43-08b62f5872c5"
   }
 ]
