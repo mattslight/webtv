@@ -8,8 +8,9 @@ var cors = require('cors');
 
 // use it before all route definitions
 var index = require('./routes/index');
-var users = require('./routes/users');
+var streams = require('./routes/streams');
 var channel = require('./routes/channel');
+var chanStreams = require('./routes/chanStreams');
 
 var app = express();
 
@@ -27,8 +28,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors({origin: 'http://localhost:3000'}));
 
 app.use('/', index);
-app.use('/users', users);
+app.use('/streams', streams);
 app.use('/channel', channel);
+app.use('/chanStreams', chanStreams);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

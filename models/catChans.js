@@ -1,6 +1,5 @@
-var express = require('express');
-var channels = require('./channels')
-var categories = require('./categories')
+//var express = require('express');
+var channels = require('./channels').channels
 var catChan = {}
 
 channels.forEach(function(channel) {
@@ -14,4 +13,6 @@ channels.forEach(function(channel) {
     catChan[channel['categoryId']] = ls
 });
 
-module.exports = catChan
+module.exports.catChan = catChan
+
+

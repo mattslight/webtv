@@ -3,8 +3,8 @@ var router = express.Router();
 
 var fs = require('fs');
 
-var categories = JSON.parse(fs.readFileSync('../docs/categories.json', 'utf8'));
-var channels = JSON.parse(fs.readFileSync('../docs/channels.json', 'utf8'));
+var channels = require('../models/channels').channels
+var categories = require('../models/categories').categories
 var catChan = {};
 
 

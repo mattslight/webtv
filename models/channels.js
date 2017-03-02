@@ -1,5 +1,5 @@
-var express = require('express');
+//var express = require('express');
 var fs = require('fs');
 var channels = JSON.parse(fs.readFileSync('../docs/channels.json', 'utf8'));
 
-module.export =  channels
+module.exports.channels =  channels
