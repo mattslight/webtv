@@ -1,8 +1,16 @@
 var express = require('express');
 var router = express.Router();
 
+
 var fs = require('fs');
 var streams = JSON.parse(fs.readFileSync('../docs/streams.json', 'utf8'));
+module.exports.streams = streams
+
+
+
+
+// var fs = require('fs');
+// var streams = JSON.parse(fs.readFileSync('../docs/channels.json', 'utf8'));
 var chanStreams = require('./chanStreams');
 
 router.get('/', function(req, res, next) {
@@ -16,5 +24,4 @@ router.get('/:streamId', function(req, res, next) {
     res.send('lookup by SteamID not implemented\r\n');
 });
 
-module.exports.streams = streams
 module.exports = router

@@ -46,8 +46,11 @@ $(document).ready(function () {
     }
 
     function hashChanged(channelId) {
-        $.get( '/channel', channelId, function(data) {
-            $('#results').html(data);
+        console.log("/chanStreams/" + channelId.substring(1));
+        $.get('/chanStreams/' + channelId.substring(1), function(data) {
+            console.log(data[0].link);
+            $('#results').html(data[0].link);
+
         })
     }
 });

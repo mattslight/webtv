@@ -5,27 +5,29 @@ var channels = require('../models/channels').channels
 var streams = require('./streams').streams
 var chanStreams = { }
 
-// streams.forEach(function(stream) {
-//     var ls = chanStreams[stream['channelId']];
-//     if (ls === undefined) {
-//         ls = [stream]
-//     } else {
-//         ls.push(stream)
-//     }
-//
-//     chanStreams[stream['channelId']] = ls
-// });
+
+streams.forEach(function(stream) {
+    var ls = chanStreams[stream['channelId']];
+    if (ls === undefined) {
+        ls = [stream]
+    } else {
+        ls.push(stream)
+    }
+
+    chanStreams[stream['channelId']] = ls
+});
+
+module.exports.chanStreams = chanStreams
+
 
 router.get('/', function(req, res, next) {
-    console.log(chanStreams)
-    res.send('OK\r\n');
+    //console.log(chanStreams)
+    res.send(chanStreams);
 });
 
 router.get('/:channelId', function(req, res, next) {
     var channelId = req.params.channelId;
-    console.log(channelId)
-    res.send(channelId + '\r\n');
+    //console.log(chanStreams[channelId])
+    res.send(chanStreams[channelId]);
 });
-
 module.exports = router;
-module.exports.chanStreams = chanStreams
