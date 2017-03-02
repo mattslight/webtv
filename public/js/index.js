@@ -48,9 +48,10 @@ $(document).ready(function () {
     function hashChanged(channelId) {
         console.log("/chanStreams/" + channelId.substring(1));
         $.get('/chanStreams/' + channelId.substring(1), function(data) {
-            console.log(data[0].link);
-            $('#results').html(data[0].link);
-
+            console.log("http://content.jwplatform.com/jw6/" + data[0].jwid + ".xml");
+            jwplayer("jwplayer").setup({
+                "playlist": "http://content.jwplatform.com/jw6/" + data[0].jwid + ".xml"
+            })
         })
     }
 });
