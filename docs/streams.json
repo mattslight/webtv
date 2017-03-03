@@ -45,7 +45,7 @@
     "name": "Iranian Belly Dance by Naya M",
     "source": "https://www.youtube.com/watch?v=f564Brix00U",
     "link": "rtmp://54.93.117.126:1935/live/885cbe6d-030c-4aa2-9aae-6f3cced3a90b",
-    "jwid" : ""
+    "jwid" : "qd4f3vFh"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "name": "Street Dance Competition NYC - Semi Final",
     "source": "https://www.youtube.com/watch?v=qpdQLbp-7nQ",
     "link": "rtmp://54.93.117.126:1935/live/e016ffa7-c061-4008-972b-496e1fec8404",
-    "jwid" : ""
+    "jwid" : "Mi6wqvG1"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "name": "Trip to Canada from Hawaii by Drone",
     "source": "https://www.youtube.com/watch?v=EzCNxaBuTRk",
     "link": "rtmp://54.93.117.126:1935/live/9091231b-9886-4cf0-8802-b57e580a41bb",
-    "jwid" : ""
+    "jwid" : "tuPlRMF5"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "name": "Band Practice with the DUKES",
     "source": "https://www.youtube.com/watch?v=PqkqA22jJkk",
     "link": "rtmp://54.93.117.126:1935/live/7ee54e59-6516-484f-964a-d805e12d58f6",
-    "jwid" : ""
+    "jwid" : "znbvM9tx"
   },
   {
     "id": 10,
@@ -85,7 +85,7 @@
     "name": "Jeff Weiner on Establishing a Plan and Culture for Scaling",
     "source": "https://www.youtube.com/watch?v=cYN3ghAam14",
     "link": "rtmp://54.93.117.126:1935/live/9d64e774-20d6-4b88-be83-e6d04f3331ec",
-    "jwid" : ""
+    "jwid" : "jQ6Pyw0J"
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "name": "Live Q&A With Instagram Founder Kevin Systrom",
     "source": "https://www.youtube.com/watch?v=Fgn2fhZBAVA",
     "link": "rtmp://54.93.117.126:1935/live/574c912d-2de5-40a9-91b0-bfe228742b8f",
-    "jwid" : ""
+    "jwid" : "talk"
   },
   {
     "id": 13,
@@ -101,6 +101,14 @@
     "name": "Burning Man Live",
     "source": "https://www.youtube.com/watch?v=JC6ODfD4E48",
     "link": "rtmp://54.93.117.126:1935/live/9646427c-629d-47fd-9f43-08b62f5872c5",
+    "jwid" : "mRyOXl75"
+  },
+  {
+    "id": 14,
+    "channelId": 90,
+    "name": "Live Cam",
+    "source": "",
+    "link": "",
     "jwid" : "axvRHpvW"
   }
 ]

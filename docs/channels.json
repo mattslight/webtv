@@ -63,5 +63,10 @@
     "channelId": 80,
     "categoryId": 8,
     "channelName": "Random"
+  },
+  {
+    "channelId": 90,
+    "categoryId": 9,
+    "channelName": "Live Cam"
   }
 ]
