@@ -1,3 +1,3 @@
 Matthew
-    UI : Left panel as overlay, not pushing video, opacity 0.5
-    UI : Logo overlay for WebTV
+    UI : Left panel to slide out on hover : http://jsfiddle.net/PayFw/791/
+    UI : Now and Next bottom -> UI : Info about current stream, Info about next stream
