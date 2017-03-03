@@ -44,7 +44,7 @@ html { height: 100%;}
   overflow-y: auto;
   overflow-x: hidden;
   background: #1a1a1a;
-  opacity: 0.85;
+  opacity: 0.80;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -88,6 +88,7 @@ html { height: 100%;}
   line-height: 25px;
   font-size: 19px;
   font-family: "Helvetica Neue";
+  font-weight: 300;
   display: inline-block;
   width: 100%;
 }
@@ -147,7 +148,7 @@ html { height: 100%;}
 
 .sidebar-nav li a {
   display: block;
-  color: rgba(139, 139, 139, 0.85);
+  color: rgba(220, 220, 220, 1);
   text-decoration: none;
   padding: 10px 15px 10px 30px;
 }
@@ -166,7 +167,7 @@ html { height: 100%;}
 .sidebar-nav > .sidebar-brand {
   height: 85px;
   font-size: 44px;
-  line-height: 65px;
+  line-height: 75px;
   font-family: Baloo
 }
 .sidebar-nav .dropdown-menu {

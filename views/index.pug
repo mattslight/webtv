@@ -17,10 +17,10 @@ block content
                 li.dropdown-header
                 each chan in catChan[category['categoryId']]
                   li
-                    a(href='#' + chan['channelId']) #{chan['channelName']}
+                    a(href='#' + chan['channelId'], onclick='changeChan( #{val.link} )') #{chan['channelName']}
           else
             li
-              a(href='#' + category['categoryId'] + '0') #{category['categoryName']}
+              a(href='#' + category['categoryId'] + '0', onclick='changeChan( #{val.link} )') #{category['categoryName']}
     #page-content-wrapper
       button.hamburger.is-closed(type='button', data-toggle='offcanvas')
         span.hamb-top
