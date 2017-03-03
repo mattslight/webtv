@@ -30,6 +30,8 @@ $(document).ready(function () {
         $('#wrapper').toggleClass('toggled');
     });
 
+
+
     if ("onhashchange" in window) { // event supported?
         window.onhashchange = function () {
             hashChanged(window.location.hash);
@@ -58,6 +60,7 @@ $(document).ready(function () {
     function changeChan(data) {
         console.log(data)
     }
+
 });
 
 

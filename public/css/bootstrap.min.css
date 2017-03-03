@@ -3435,12 +3435,14 @@ tbody.collapse.in {
 
 .dropdown-menu > li > a {
     display: block;
-    padding: 3px 20px;
+    padding: 5px 50px;
     clear: both;
     font-weight: 400;
     line-height: 1.42857143;
-    color: #333;
-    white-space: nowrap
+    white-space: nowrap;
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
@@ -3488,11 +3490,12 @@ tbody.collapse.in {
 
 .dropdown-header {
     display: block;
-    padding: 3px 20px;
+    padding: 1px 20px;
     font-size: 12px;
     line-height: 1.42857143;
-    color: #777;
-    white-space: nowrap
+    color: #fff;
+    white-space: nowrap;
+    background-color: #cdd;
 }
 
 .dropdown-backdrop {
@@ -3864,7 +3867,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .nav > li > a {
     position: relative;
     display: block;
-    padding: 10px 15px
+    /*padding: 10px 15px*/
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
@@ -3884,7 +3887,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 }
 
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    background-color: #eee;
+    /*background-color: #eee;*/
     border-color: #337ab7
 }
 
