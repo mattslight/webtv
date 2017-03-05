@@ -39,12 +39,39 @@ block content
             span.sr-only Close
           h4#myModalLabel.modal-title
         .modal-body
-          .row
+          .row.visible-xs.hidden-sm
+            .col-xs-6
+              h3 Broadcasting is invite only. Request an invite:
+              form
+                .form-group
+                  input#email.form-control(type='email', placeholder='Enter Email')
+                |
+                button.btn.btn-default(type='submit') Request
+            .col-xs-6
+              h3 Or wow us with a video for early access.
+              form
+                .form-group
+                  input#url.form-control(type='url', placeholder='Video URL')
+                |
+                button.btn.btn-default(type='submit') Send
+          .row.hidden-xs.visible-sm.visible-md.visible-lg
+            .col-sm-2
             .col-sm-4
-              p Please sign-in to start a live broadcast
+              h3 Request invite
+              p Broadcasting on Live:one is currently invite only. Request an invite below.
+              form
+                .form-group
+                  input#email.form-control(type='email', placeholder='Enter Email')
+                |
+                button.btn.btn-default(type='submit') Request
+            .col-sm-1
             .col-sm-4
-              p Or... get an invite
-            .col-sm-4
-              p Or... send us a live broadcast
+              h3 Or... Can't wait for an invite?
+              p Send us a demo (unedited) and if you wow us, you'll get early access.
+              form
+                .form-group
+                  input#url.form-control(type='url', placeholder='Video URL')
+                |
+                button.btn.btn-default(type='submit') Send
         .modal-footer
-          button.btn.btn-default(type='button', data-dismiss='modal') Chicken Out
+          p.small Nothing to see here

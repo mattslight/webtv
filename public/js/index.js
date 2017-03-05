@@ -4,9 +4,6 @@
 
 $(document).ready(function () {
 
-    //$('#fullpage').fullpage();
-
-
     if ("onhashchange" in window) { // event supported?
         window.onhashchange = function () {
             hashChanged(window.location.hash);
