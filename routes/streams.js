@@ -7,10 +7,6 @@ var streams = JSON.parse(fs.readFileSync('../docs/streams.json', 'utf8'));
 module.exports.streams = streams
 
 
-
-
-// var fs = require('fs');
-// var streams = JSON.parse(fs.readFileSync('../docs/channels.json', 'utf8'));
 var chanStreams = require('./chanStreams');
 
 router.get('/', function(req, res, next) {

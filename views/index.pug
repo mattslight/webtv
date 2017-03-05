@@ -1,39 +1,50 @@
 extends layout
 
 block content
-  #fullpage
-    .section
-      .section
-        .slide
-          #wrapper.toggled
-            .overlay
-            #chanChanger
-            #chanContainer.chanContainer
-              #ccContent.ccContent
-                ul.nav.sidebar-nav
-                  li.sidebar-brand
-                    a(href='#') live:one
-                  each category in categories
-                    if catChan[category['categoryId']].length > 1
-                      li.dropdown
-                        a.dropdown-toggle(data-toggle='dropdown') #{category['categoryName']}
-                          span.caret
-                        ul.dropdown-menu(role='menu')
-                          li.dropdown-header
-                          each chan in catChan[category['categoryId']]
-                            li
-                              a(href='#' + chan['channelId'], onclick='changeChan( #{val.link} )') #{chan['channelName']}
-                    else
-                      li
-                        a(href='#' + category['categoryId'] + '0', onclick='changeChan( #{val.link} )') #{category['categoryName']}
-                  #broadcastSignup.control-group
-                    button.btn.btn-primary.active(type='button') Start Live Channel
-            #page-content-wrapper
-              .container-fluid
-                .row
-                  #jwplayer
-                    script(src='//content.jwplatform.com/players/vcCWOCbs-Hfok2Nah.js')
-                .row
-                  #results
-                   p Nothing to show
-      .slide Slide 2
+  #wrapper.toggled
+    .overlay
+    #chanChanger
+    #chanContainer.chanContainer
+      #ccContent.ccContent
+        ul.nav.sidebar-nav
+          li.sidebar-brand
+            a(href='#') live:one
+          each category in categories
+            if catChan[category['categoryId']].length > 1
+              li.dropdown
+                a.dropdown-toggle(data-toggle='dropdown') #{category['categoryName']}
+                  span.caret
+                ul.dropdown-menu(role='menu')
+                  li.dropdown-header
+                  each chan in catChan[category['categoryId']]
+                    li
+                      a(href='#' + chan['channelId'], onclick='changeChan( #{val.link} )') #{chan['channelName']}
+            else
+              li
+                a(href='#' + category['categoryId'] + '0', onclick='changeChan( #{val.link} )') #{category['categoryName']}
+          #broadcastSignup.control-group
+            button.btn.btn-primary.active(type='button', data-toggle='modal', data-target='#modal-fullscreen') Start Live Channel
+    #page-content-wrapper
+      .container-fluid
+        .row
+          #jwplayer
+            script(src='//content.jwplatform.com/players/vcCWOCbs-Hfok2Nah.js')
+
+  #modal-fullscreen.modal.modal-fullscreen.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='true')
+    #modal-signup.modal-dialog
+      .modal-content
+        .modal-header
+          button.close(type='button', data-dismiss='modal')
+            span(aria-hidden='true') &times;
+            span.sr-only Close
+          h4#myModalLabel.modal-title
+        .modal-body
+          .row
+            .col-sm-4
+              p Please sign-in to start a live broadcast
+            .col-sm-4
+              p Or... get an invite
+            .col-sm-4
+              p Or... send us a live broadcast
+        .modal-footer
+          button.btn.btn-default(type='button', data-dismiss='modal') Chicken Out
