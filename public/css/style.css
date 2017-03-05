@@ -310,3 +310,38 @@ html { height: 100%;}
   /*background-color: rgba(250,250,250,.8);*/
   z-index: 1;
 }
+
+/*-------------------------------*/
+/*       Chan Changer            */
+/*-------------------------------*/
+#ccContent {
+  background-color: #111111;
+  width: 220px;
+  height: 100%;
+}
+
+#chanChanger {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 100%;
+  text-align: center;
+  z-index: 2000;
+}
+
+.chanContainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 100%;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.ccContent {
+  position: relative;
+  display: none;
+  color: white;
+}

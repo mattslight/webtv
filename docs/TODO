@@ -2,3 +2,5 @@ Matthew
     UI : Left panel to slide out on hover : http://jsfiddle.net/PayFw/791/
     UI : Now and Next bottom -> UI : Info about current stream, Info about next stream
 ;
+
+        nav#sidebar-wrapper.navbar-fixed-top(role='navigation')

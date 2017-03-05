@@ -1,7 +1,7 @@
 
 ffmpeg -f avfoundation -video_size 640x480 -framerate 30 -i "0" -vcodec libx264 -preset veryfast -f flv rtmp://54.93.117.126/:1935/live/matthe
 
-http://jsfiddle.net/PayFw/792/
+http://jsfiddle.net/PayFw/799/
 
 How I would differentiate from YouNow:-
 

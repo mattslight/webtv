@@ -3437,12 +3437,11 @@ tbody.collapse.in {
     display: block;
     padding: 5px 50px;
     clear: both;
-    font-weight: 400;
     line-height: 1.42857143;
     white-space: nowrap;
     font-family: "Helvetica Neue";
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16gtpx;
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
