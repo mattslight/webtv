@@ -8,7 +8,7 @@ block content
       #ccContent.ccContent
         ul.nav.sidebar-nav
           li.sidebar-brand
-            a(href='#') WebTV
+            a(href='#') live:one
           each category in categories
             if catChan[category['categoryId']].length > 1
               li.dropdown
@@ -22,11 +22,13 @@ block content
             else
               li
                 a(href='#' + category['categoryId'] + '0', onclick='changeChan( #{val.link} )') #{category['categoryName']}
+          #broadcastSignup.control-group
+            button.btn.btn-primary.active(type='button') Start Live Channel
     #page-content-wrapper
       .container-fluid
         .row
           #jwplayer
-            script(src='//content.jwplatform.com/players/zcsdz2XP-Hfok2Nah.js')
+            script(src='//content.jwplatform.com/players/vcCWOCbs-Hfok2Nah.js')
         .row
           #results
            p Nothing to show
