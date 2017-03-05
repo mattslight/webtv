@@ -1,34 +1,39 @@
 extends layout
 
 block content
-  #wrapper.toggled
-    .overlay
-    #chanChanger
-    #chanContainer.chanContainer
-      #ccContent.ccContent
-        ul.nav.sidebar-nav
-          li.sidebar-brand
-            a(href='#') live:one
-          each category in categories
-            if catChan[category['categoryId']].length > 1
-              li.dropdown
-                a.dropdown-toggle(data-toggle='dropdown') #{category['categoryName']}
-                  span.caret
-                ul.dropdown-menu(role='menu')
-                  li.dropdown-header
-                  each chan in catChan[category['categoryId']]
-                    li
-                      a(href='#' + chan['channelId'], onclick='changeChan( #{val.link} )') #{chan['channelName']}
-            else
-              li
-                a(href='#' + category['categoryId'] + '0', onclick='changeChan( #{val.link} )') #{category['categoryName']}
-          #broadcastSignup.control-group
-            button.btn.btn-primary.active(type='button') Start Live Channel
-    #page-content-wrapper
-      .container-fluid
-        .row
-          #jwplayer
-            script(src='//content.jwplatform.com/players/vcCWOCbs-Hfok2Nah.js')
-        .row
-          #results
-           p Nothing to show
+  #fullpage
+    .section
+      .section
+        .slide
+          #wrapper.toggled
+            .overlay
+            #chanChanger
+            #chanContainer.chanContainer
+              #ccContent.ccContent
+                ul.nav.sidebar-nav
+                  li.sidebar-brand
+                    a(href='#') live:one
+                  each category in categories
+                    if catChan[category['categoryId']].length > 1
+                      li.dropdown
+                        a.dropdown-toggle(data-toggle='dropdown') #{category['categoryName']}
+                          span.caret
+                        ul.dropdown-menu(role='menu')
+                          li.dropdown-header
+                          each chan in catChan[category['categoryId']]
+                            li
+                              a(href='#' + chan['channelId'], onclick='changeChan( #{val.link} )') #{chan['channelName']}
+                    else
+                      li
+                        a(href='#' + category['categoryId'] + '0', onclick='changeChan( #{val.link} )') #{category['categoryName']}
+                  #broadcastSignup.control-group
+                    button.btn.btn-primary.active(type='button') Start Live Channel
+            #page-content-wrapper
+              .container-fluid
+                .row
+                  #jwplayer
+                    script(src='//content.jwplatform.com/players/vcCWOCbs-Hfok2Nah.js')
+                .row
+                  #results
+                   p Nothing to show
+      .slide Slide 2
