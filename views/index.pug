@@ -8,7 +8,7 @@ block content
       #ccContent.ccContent
         ul.nav.sidebar-nav
           li.sidebar-brand
-            a(href='#') live:one
+            a(href='#') Tely.io
           each category in categories
             if catChan[category['categoryId']].length > 1
               li.dropdown
@@ -29,14 +29,10 @@ block content
         .row
           #jwplayer
             script(src='//content.jwplatform.com/players/vcCWOCbs-Hfok2Nah.js')
-
   #modal-fullscreen.modal.modal-fullscreen.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='true')
     #modal-signup.modal-dialog
       .modal-content
         .modal-header
-          button.close(type='button', data-dismiss='modal')
-            span(aria-hidden='true') &times;
-            span.sr-only Close
           h4#myModalLabel.modal-title
         .modal-body
           .row.visible-xs.hidden-sm
@@ -64,7 +60,6 @@ block content
                   input#email.form-control(type='email', placeholder='Enter Email')
                 |
                 button.btn.btn-default(type='submit') Request
-            .col-sm-1
             .col-sm-4
               h3 Or... Can't wait for an invite?
               p Send us a demo (unedited) and if you wow us, you'll get early access.
@@ -74,4 +69,6 @@ block content
                 |
                 button.btn.btn-default(type='submit') Send
         .modal-footer
-          p.small Nothing to see here
+          button.close(type='button', data-dismiss='modal')
+            span(aria-hidden='true') &times;
+            span.sr-only Close

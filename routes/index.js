@@ -20,7 +20,7 @@ channels.forEach(function(channel) {
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Web.TV', categories: categories, channels: channels,  catChan: catChan});
+  res.render('index', { title: 'Tely.io', categories: categories, channels: channels,  catChan: catChan});
 });
 
 module.exports = router;
